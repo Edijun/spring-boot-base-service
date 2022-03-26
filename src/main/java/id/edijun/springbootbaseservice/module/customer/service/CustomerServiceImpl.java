@@ -1,4 +1,4 @@
-package id.edijun.springbootbaseservice.module.customer;
+package id.edijun.springbootbaseservice.module.customer.service;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import id.edijun.springbootbaseservice.application.util.Mapper;
 import id.edijun.springbootbaseservice.model.entity.Customer;
 import id.edijun.springbootbaseservice.model.repository.CustomerRepository;
-import id.edijun.springbootbaseservice.module.customer.payload.CustomerGetAllResponse;
+import id.edijun.springbootbaseservice.module.customer.controller.payload.CustomerGetAllResponse;
 
 @Service
 class CustomerServiceImpl implements CustomerService {

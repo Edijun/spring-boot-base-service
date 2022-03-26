@@ -1,4 +1,4 @@
-package id.edijun.springbootbaseservice.module.customer;
+package id.edijun.springbootbaseservice.module.customer.controller;
 
 import java.util.List;
 
@@ -6,9 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import id.edijun.springbootbaseservice.module.customer.service.CustomerService;
 
 import id.edijun.springbootbaseservice.application.response.SuccessResponse;
-import id.edijun.springbootbaseservice.module.customer.payload.CustomerGetAllResponse;
+import id.edijun.springbootbaseservice.module.customer.controller.payload.CustomerGetAllResponse;
+
+
 
 @RestController
 @RequestMapping("customer")

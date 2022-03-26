@@ -1,4 +1,4 @@
-package id.edijun.springbootbaseservice.module.customer.payload;
+package id.edijun.springbootbaseservice.module.customer.controller.payload;
 
 import java.util.Date;
 

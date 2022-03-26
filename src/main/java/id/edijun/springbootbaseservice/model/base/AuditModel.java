@@ -18,10 +18,11 @@ import lombok.Setter;
 @MappedSuperclass
 public class AuditModel {
 
-	@Column(updatable = false)
+	@Column(name = "created_by", updatable = false)
 	@CreationTimestamp
 	private LocalDateTime createdAt;
 
+	@Column(name = "updated_by", updatable = false)
 	@UpdateTimestamp
 	private LocalDateTime updatedAt;
 
